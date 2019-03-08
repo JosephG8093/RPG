@@ -11,3 +11,4 @@ else:
     return myCharacter.Current_LvL
 
 # need to make it so that damage matches level
+#definitly needs more work..
