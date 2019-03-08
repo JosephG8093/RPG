@@ -1,4 +1,8 @@
+from lvlUP.py import LVLUP
+
 class myCharacter():
+    isAlive = True
+    Current_LvL = 1
     Default_NAME = ''
     Defaut_health = 100.0
     Default_strength = 10.0
@@ -14,10 +18,6 @@ def create_NAME():
         print('your new name is {}', format(myCharacter.Default_NAME))
     else:
         # create battle function to continue !
-        print('Hello {}', format(myCharacter.Default_NAME))
+        print('Hello ', format(myCharacter.Default_Name))
 
-
-class Mage():
-    health = myCharacter.De
-    mana
-    stength
+class Mage(health, strength, mana,):
