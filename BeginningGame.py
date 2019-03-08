@@ -20,11 +20,11 @@ def start_Game():
     print('*H* Hunter')
     select_Class = input()
     if(select_Class = 'M'):
-        myCharacter.Default_class = Classes.Mage
+        myCharacter.Default_class == Classes.Mage
     elif(select_Class = 'W'):
-        myCharacter.Default_class = Classes.Warrior
+        myCharacter.Default_class == Classes.Warrior
     elif(select_Class = 'H'):
-        myCharacter.Default_class = Classes.Hunter
+        myCharacter.Default_class == Classes.Hunter
     else:
         print('There was a error, please type M,W,H to select a class')
         select_Class()
