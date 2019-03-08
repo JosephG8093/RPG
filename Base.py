@@ -15,7 +15,7 @@ def create_NAME():
         print('you need a name for your character.')
         getting_Name = input('Your new name: ')
         myCharacter.Default_NAME = getting_Name
-        print('your new name is {}', format(myCharacter.Default_NAME))
+        print('your new name is ', format(myCharacter.Default_NAME))
     else:
         # create battle function to continue !
         print('Hello ', format(myCharacter.Default_Name))
