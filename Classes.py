@@ -14,3 +14,4 @@ class Hunter():
     return Hunter()
 
 # need to add more classes
+# Also need to make a update function for Default settings to the new settings on class select...
