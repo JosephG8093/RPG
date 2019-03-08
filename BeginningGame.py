@@ -2,8 +2,7 @@ import os
 import time
 from Base import myCharacter
 form Base import create_NAME
-from lvlUP import LevelUP
-from Classes import Mage, Warrior, Hunter
+import Classes
 
 def start_Game():
     print('Welcome to a text based RPG game,')
