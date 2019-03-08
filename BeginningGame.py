@@ -19,7 +19,7 @@ def start_Game():
     print('*M* Mage')
     print('*W* Warrior')
     print('*H* Hunter')
-    select_Class = input()
+    select_Class = input().upper()
     if(select_Class == 'M'):
         myCharacter.Default_class == Classes.Mage
     elif(select_Class == 'W'):
