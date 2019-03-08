@@ -1,14 +1,13 @@
 from Base.py import myCharacter
 
-
+MAX_LEVEL = 100
 MAX_EXP = 1000
-def LVLUP():
-    if(myCharacter.Default_exp == MAX_EXP):
-    myCharacter.Current_LvL = myCharacter.Current_LvL ++
-else:
-    print()
+EXP_GAIN = 0.013
 
-    if(myCharacter.isAlive == False):
-        myCharacter.Current_LvL = 1
-        myCharacter.Default_exp = 0.0
-    else:
+def LevelUP():
+    if(myCharacter.isAlive = True, myCharacter.Default_exp += 1000):
+    myCharacter.Current_LvL ++
+else:
+    return myCharacter.Current_LvL
+
+# need to make it so that damage matches level

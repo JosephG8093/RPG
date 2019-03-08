@@ -1,5 +1,5 @@
 from lvlUP.py import LVLUP
-
+gg
 class myCharacter():
     isAlive = True
     Current_LvL = 1
@@ -19,5 +19,3 @@ def create_NAME():
     else:
         # create battle function to continue !
         print('Hello ', format(myCharacter.Default_Name))
-
-class Mage(health, strength, mana,):
