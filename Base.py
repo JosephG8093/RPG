@@ -37,3 +37,6 @@ def pick_Class():
         myCharacter.Default_class = Classes.Hunter
     else:
         print('There seems to be a error, now quiting')
+
+    def cst_Display(name, class, strength, health, mana, exp, lvl):
+        while (myCharacter.isAlive = True):

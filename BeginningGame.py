@@ -1,7 +1,6 @@
 import os
 import time
-from Base import myCharacter
-form Base import create_NAME
+import Base
 import Classes
 
 def start_Game():
@@ -13,3 +12,4 @@ def start_Game():
     #this item needs work, do to not understanding shit
     create_NAME()
     time.sleep(2)
+    pick_Class()
