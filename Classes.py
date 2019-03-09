@@ -14,4 +14,6 @@ class Hunter():
     mana = 0.218
 
 # need to add more classes
-# Also need to make a update function for Default settings to the new settings on class select...
+# Also need to make a update function for Default settings to the new settings on class select
+
+# probably need to use Async functions... maybe...
